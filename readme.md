@@ -27,8 +27,20 @@ Pipelines抽象了模型的复杂度，提供专注于任务简单的 API，便�
 - Feature Extraction
 - Question Answering.
 
+## Datasets
+
+`HF_DATASETS_OFFLINE = 1` 为离线模式
+
+## 环境配置
+
+- [nvidia-smi](https://developer.nvidia.com/cuda-downloads)
+
 ## 参考
 
 - [Full Training](https://huggingface.co/learn/nlp-course/chapter0/1?fw=pt)
 - [HF Learn](https://huggingface.co/learn)
 - [Longchain Custom LLM](https://python.langchain.com/docs/modules/model_io/llms/custom_llm)
+
+### `nvidia-smi`
+
+1. 开启 persistence mode: `nvidia-smi -pm 1`, (`-i` 指定GPU编号)  
